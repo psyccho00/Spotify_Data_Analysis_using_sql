@@ -1,7 +1,7 @@
 # Spotify Advanced SQL Project and Query Optimization P-6
 Project Category: Advanced
 
-
+![](https://github.com/psyccho00/Spotify_Data_Analysis_using_sql/blob/main/spotify_logo.jpg)
 
 
 ## Overview
