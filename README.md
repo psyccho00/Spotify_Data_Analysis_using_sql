@@ -6,6 +6,7 @@ Project Category: Advanced
 
 ## Overview
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance.
+
 ```sql
 -- create table
 DROP TABLE IF EXISTS spotify;
@@ -69,7 +70,13 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 
 ### Easy Level
 1. Retrieve the names of all tracks that have more than 1 billion streams.
+```sql
+SELECT track
+FROM spotify 
+WHERE stream > 1000000000;
+```
 2. List all albums along with their respective artists.
+
 3. Get the total number of comments for tracks where `licensed = TRUE`.
 4. Find all tracks that belong to the album type `single`.
 5. Count the total number of tracks by each artist.
