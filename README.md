@@ -271,3 +271,10 @@ This optimization shows how indexing can drastically reduce query time, improvin
 
 ---
 
+## 👨‍💻 Author
+
+Made by [@psyccho00](https://github.com/psyccho00)
+
+If you liked this, please ⭐ the repo!
+
+---
